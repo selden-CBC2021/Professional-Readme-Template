@@ -12,7 +12,7 @@ inquirer
     },
     {
       type: 'input',
-      message: 'Provide a short description explaining the what, why, and how of your project.?',
+      message: 'Provide a short description explaining the what, why, and how of your project.',
       name: 'description',
     },
     {
@@ -36,9 +36,9 @@ inquirer
       name: 'tests',
     },
     {
-      type: 'checkbox',
+      type: 'list',
       message: 'Which license will you be using?',
-      choices: ['MIT', 'GPL 3.0', 'Apache 2.0', 'BSD 3', 'None'],
+      choices: ['MIT', 'GPL3.0', 'Apache2.0', 'BSD3', 'None'],
       name: 'license',
     },
     {
@@ -66,7 +66,9 @@ inquirer
 
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+  
+}
 
 // Function call to initialize app
 init();
