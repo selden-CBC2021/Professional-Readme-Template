@@ -70,6 +70,7 @@ function generateMarkdown(answers) {
   --${answers.usage}
   ## License
   --https://opensource.org/licenses/${answers.license}
+  <br />
   --This application is covered under the ${answers.license} license.
   ## How to Contribute
   --${answers.contribution}
@@ -83,4 +84,4 @@ function generateMarkdown(answers) {
  }
 
 
-module.exports = generateMarkdown;
+module.exports = generateMarkdown; 

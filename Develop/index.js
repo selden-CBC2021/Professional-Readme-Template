@@ -32,7 +32,7 @@ inquirer
     },
     {
       type: 'input',
-      message: 'Did you write any tests for your application? Please provide code examples and how to run them',
+      message: 'Did you write any tests for your application? Please provide code examples and how to run them if there are',
       name: 'tests',
     },
     {
